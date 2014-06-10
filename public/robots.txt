@@ -1,0 +1,7 @@
+# main section
+User-agent:*
+Disallow: /adminpanel/
+# End of main section
+
+# Images section
+# End of images section

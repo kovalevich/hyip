@@ -1,0 +1,11 @@
+<?php
+$this->headTitle($this->translate(_('Авторизация')) , 'PREPEND');
+?>
+<div class="row">
+    <div class="col-sm-4">
+        <h1><?= $this->translate(_('Войти')) ?>:</h1>
+        <?php if ($this->errMessage) : ?><p class="alert alert-danger"><?php echo $this->errMessage ?></p><?php endif; ?>
+        <?php echo $this->form ?>
+        <a href="/registration/forgotpass"><?= $this->translate(_('Забыли пароль')) ?>?</a> | <a href="/registration"><?= $this->translate(_('Регистрация')) ?></a>
+    </div>
+</div>

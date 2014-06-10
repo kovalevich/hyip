@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: auto\n"
+"POT-Creation-Date: 2014-06-04 07:16+0300\n"
+"PO-Revision-Date: 2014-06-04 07:36+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: /home/evgen/sites/auto.kov/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: application/views\n"
+
+#: application/views/scripts/layout.phtml:46
+msgid "Подать новое объявление"
+msgstr "Падаць новую аб'яву"
+
+#: application/views/scripts/layout.phtml:46
+msgid "Подать объявление"
+msgstr "Падаць аб'яву"
+
+#: application/views/scripts/layout.phtml:61
+msgid "язык"
+msgstr "мова"
+
+#: application/views/scripts/layout.phtml:61
+msgid "короткий адрес сайта"
+msgstr "кароткі адрас сайта"
+
+#: application/views/scripts/index/index.phtml:1
+msgid "Онлайн авторынок в Беларуси"
+msgstr "Анлайн аўтарынак у Беларусі"
+
+#: application/views/scripts/index/index.phtml:5
+msgid "Купить автомобиль"
+msgstr "Купіць аўтамабіль"
+
+#: application/views/scripts/index/index.phtml:5
+msgid "предложение"
+msgstr "прапанова"
+
+#: application/views/scripts/index/index.phtml:5
+msgid "предложения"
+msgstr "прапановы"
+
+#: application/views/scripts/index/index.phtml:5
+msgid "предложений"
+msgstr "прапаноў"
+
+#: application/views/scripts/index/index.phtml:44
+msgid "Поиск автомобиля"
+msgstr "Пошук аўтамабіля"
+
+#: application/views/scripts/cars/car.phtml:2
+msgid "Продажа автомобиля"
+msgstr "Продаж аўтамабіля"
+
+#: application/views/scripts/cars/car.phtml:3
+msgid "Объявление о продаже автомобиля"
+msgstr "Аб'ява аб продажы аўтамабіля"
+
+#: application/views/scripts/cars/car.phtml:3
+msgid "года выпуска"
+msgstr "года выпуску"
+
+#: application/views/scripts/cars/car.phtml:5
+#: application/views/scripts/cars/add.phtml:5
+msgid "продажа"
+msgstr "продаж"
+
+#: application/views/scripts/cars/car.phtml:6
+#: application/views/scripts/cars/add.phtml:6
+msgid "объявление"
+msgstr "аб'ява"
+
+#: application/views/scripts/cars/add.phtml:2
+msgid "Подать объявление на онлайн авторынок"
+msgstr "Падаць аб'яву на анлайн аўтарынак"
+
+#: application/views/scripts/cars/add.phtml:3
+msgid ""
+"Как подать объявление на онлайн авторынок бесплатно и без регистрации. "
+"Продавать автомобиль на онлайн авторынке Беларуси."
+msgstr ""
+"Як падаць аб'яву на анлайн аўтарынак бясплатна і без рэгістрацыі. Прадаваць "
+"аўтамабіль на анлайн аўтарынку Беларусі."
+
+#: application/views/scripts/cars/add.phtml:7
+msgid "онлайн авторынок"
+msgstr "анлайн аўтарынак"
+
+#: application/views/scripts/cars/add.phtml:11
+msgid "Добавить новое объявление"
+msgstr "Дадаць новую аб'яву"
+
+#: application/views/scripts/cars/add.phtml:11
+msgid "всего за 3 минуты"
+msgstr "усяго за 3 хвіліны"
+
+#: application/views/scripts/cars/add.phtml:17
+msgid "основная информация"
+msgstr "асноўная інфармацыя"
+
+#: application/views/scripts/cars/add.phtml:21
+msgid "Марка"
+msgstr "Марка"
+
+#: application/views/scripts/cars/add.phtml:23
+#: application/views/scripts/cars/add.phtml:29
+#: application/views/scripts/cars/add.phtml:35
+msgid "все"
+msgstr "усе"
+
+#: application/views/scripts/cars/add.phtml:27
+msgid "Модель"
+msgstr "Мадэль"
+
+#: application/views/scripts/cars/add.phtml:33
+msgid "Поколение"
+msgstr "Пакаленне"
+
+#: application/views/scripts/cars/add.phtml:44
+msgid "торг"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:45
+msgid "обмен"
+msgstr "абмен"
+
+#: application/views/scripts/cars/add.phtml:59
+msgid "двигатель"
+msgstr "рухавік"
+
+#: application/views/scripts/cars/add.phtml:63
+msgid "Двигатель"
+msgstr "Рухавік"
+
+#: application/views/scripts/cars/add.phtml:66
+msgid "дизель"
+msgstr "дызель"
+
+#: application/views/scripts/cars/add.phtml:67
+msgid "бензин"
+msgstr "бензін"
+
+#: application/views/scripts/cars/add.phtml:68
+msgid "газ-бензин"
+msgstr "газ-бензін"
+
+#: application/views/scripts/cars/add.phtml:69
+msgid "гибрид"
+msgstr "гібрыд"
+
+#: application/views/scripts/cars/add.phtml:70
+msgid "электро"
+msgstr "электра"
+
+#: application/views/scripts/cars/add.phtml:77
+msgid "КПП"
+msgstr "КПП"
+
+#: application/views/scripts/cars/add.phtml:80
+msgid "механика"
+msgstr "механіка"
+
+#: application/views/scripts/cars/add.phtml:81
+msgid "автомат"
+msgstr "аўтамат"
+
+#: application/views/scripts/cars/add.phtml:82
+msgid "типтроник"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:94
+msgid "кузов"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:98
+msgid "Тип кузова"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:104
+msgid "Цвет"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:115
+msgid "опции"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:119
+msgid "кондиционер"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:122
+msgid "ксенон"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:125
+msgid "парктроник"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:128
+msgid "кожаный салон"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:131
+msgid "подогрев сидений"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:134
+msgid "навигация"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:137
+msgid "громкая связь"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:140
+msgid "система контроля стабилизации"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:143
+msgid "легкосплавные диски"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:146
+msgid "круиз-контроль"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:149
+msgid "абс"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:152
+msgid "подушки безопасности"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:155
+msgid "центральный замок"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:158
+msgid "климат-контроль"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:161
+msgid "сигнализация"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:185
+msgid "дополнительная информация"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:189
+msgid "Привод"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:195
+#: application/views/scripts/cars/add.phtml:196
+msgid "VIN код"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:199
+msgid "Дополнительная информация"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:208
+msgid "контакты"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:212
+msgid "Страна"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:213
+msgid "Беларусь"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:216
+msgid "Город"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:217
+msgid "Минск"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:221
+msgid ""
+"Укажите телефон в международном формате. 2 цифры - код оператора + 7 цифр - "
+"номер абонента"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:224
+msgid "Контакты"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:225
+msgid "Сергей"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:235
+msgid "Разместить мое объявление"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:244
+msgid "Выберите марку и модель автомобиля!"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:253
+msgid "К сожалению, ваш браузер не поддерживает загрузку изображений"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:256
+msgid "Загрузить фотографии"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:257
+msgid "или"
+msgstr ""
+
+#: application/views/scripts/cars/add.phtml:257
+msgid "перетащите фотографии в это поле"
+msgstr ""
+
+#~ msgid "Login"
+#~ msgstr "Вход"
+
+#~ msgid "Hello"
+#~ msgstr "Здравствуйте"
+
+#~ msgid "My profile"
+#~ msgstr "Мой профиль"
+
+#~ msgid "Castings"
+#~ msgstr "Кастинги"
+
+#~ msgid "Logout"
+#~ msgstr "Выйти"
+
+#~ msgid "News"
+#~ msgstr "Новости"
+
+#~ msgid "Registration"
+#~ msgstr "Регастрация"
+
+#, fuzzy
+#~ msgid "Profile"
+#~ msgstr "Мой профиль"
+
+#~ msgid "hello"
+#~ msgstr "Привет"

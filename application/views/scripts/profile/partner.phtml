@@ -1,0 +1,21 @@
+
+<div class="row">
+    <div class="col-sm-8">
+        <h3>Ваша партнерская ссылка</h3>
+        <a href="/registration?invite=<?= $this->id ?>">http://hyip.by/registration?invite=<?= $this->id ?></a>
+        <h3>Ваши партнеры</h3>
+        <?= $this->partnerstable($this->partners) ?>
+    </div>
+    <div class="col-sm-4">
+        <h3><span class="glyphicon glyphicon-align-justify"></span> Меню пользователя</h3>
+        <nav>
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="/profile">Обзор</a></li>
+                <li><a href="/profile/settings">Настройки</a></li>
+                <li><a href="/profile/history">Операции</a></li>
+                <li><a href="/profile/requests">Заявки</a></li>
+                <li class="active"><a href="/profile/partner">Партнерская программа</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>

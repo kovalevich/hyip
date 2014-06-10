@@ -1,0 +1,16 @@
+<?php 
+foreach ($this->container as $page) {
+	$active = $page->isActive(true);
+	echo '<li class="'. ($active ? 'active' : '') .'">';
+	echo '<a href="' . $this->baseUrl($page->getHref()) . '" title=' . $page->getTitle() . '>' . $page->getLabel() . '</a>';
+	if (count($page->pages)) {
+	    echo '<ul>';
+		foreach ($page->pages as $child) {
+		    if($child->getParam('show'))
+		    echo '<li><a href="' . $this->baseUrl($child->getHref()) . '">' . $child->getLabel() . '</a></li>';
+		}
+		echo '</ul>';
+	}
+	echo '</li><li class="divider-vertical"></li>';
+}
+?>

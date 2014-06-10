@@ -1,0 +1,32 @@
+body {
+    font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #777;
+    font-weight: 300;
+}
+body ul {
+    list-style: none outside none;
+}
+
+.options {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.box {margin-top: 20px}
+
+a.box-button {
+    font-size: 1.1em;
+    text-decoration: none;
+    border-bottom: 1px dotted #428bca;
+}
+
+a.red {
+    color: #f00000;
+    border-bottom: 1px dotted #f00000;
+}
+
+.sm {
+    font-size: 0.8em;
+}
+
+

@@ -1,0 +1,15 @@
+<?php
+$this->headTitle($this->translate(_('Забыли пароль?')) , 'PREPEND');
+?>
+<div class="row">
+    <div class="col-sm-4">
+        <h1><?php echo $this->translate(_('Забыли пароль?')) ?></h1>
+        <?php if($this->errors) : ?>
+            <p class="alert alert-danger"><?php echo $this->translate($this->errors)?></p>
+        <?php endif; ?>
+        <div class="alert alert-warning">
+            <?= $this->translate(_('Укажите свой email и мы вышлем вам код для восстановления пароля')) ?>.
+        </div>
+        <?php echo $this->form ?>
+    </div>
+</div>

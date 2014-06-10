@@ -1,0 +1,37 @@
+<?php if ($this->pageCount): ?>
+    <ul class="pagination">
+        <!-- First page link -->
+        <li <?php if (!isset($this->previous)) echo 'class="disabled"' ?>>
+            <a href="<?php echo isset($this->previous) ? $this->url(array('page' => $this->first)) . $this->getparams() : '#'; ?>">
+                &laquo;
+            </a>
+        </li>
+        <li <?php if (!isset($this->previous)) echo 'class="disabled"' ?>>
+            <!-- Previous page link -->
+            <a href="<?php echo isset($this->previous) ? $this->url(array('page' => $this->previous)) . $this->getparams() : '#'; ?>">
+                &lsaquo;
+            </a>
+        <li>
+
+            <?php foreach ($this->pagesInRange as $page): ?>
+        <li  <?php if ($page == $this->current) echo 'class="active"' ?>>
+            <a href="<?php echo $page != $this->current ? $this->url(array('page' => $page)) . $this->getparams() : '#'; ?>">
+                <span class="disabled"><?php echo $page; ?></span>
+            </a>
+        </li>
+        <?php endforeach; ?>
+
+        <li <?php if (!isset($this->next)) echo 'class="disabled"' ?>>
+            <!-- Next page link -->
+            <a href="<?php echo isset($this->next) ? $this->url(array('page' => $this->next)) . $this->getparams() : '#'; ?>">
+                &rsaquo;
+            </a>
+        </li>
+        <li <?php if (!isset($this->next)) echo 'class="disabled"' ?>>
+            <!-- Last page link -->
+            <a href="<?php echo isset($this->next) ? $this->url(array('page' => $this->last)) . $this->getparams() : '#'; ?>">
+                &rsaquo;&rsaquo;
+            </a>
+        </li>
+    </ul>
+<?php endif; ?>
